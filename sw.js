@@ -22,7 +22,7 @@ self.addEventListener("install", (e) => {
             self.skipWaiting();
           });
         })
-        .catch((err) => console.log("No se ha registrado el cache"), err)
+        .catch((err) => console.log("No se ha registrado el cache"))
     );
   });
   
