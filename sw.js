@@ -3,14 +3,14 @@ const CACHE_NAME = 'v1_cache_JBN_PWA';
 
 //configuracion de los ficheros
 var urlsToCache = [
-    '/index.html',
-    '/sw.js',
-    '/main.js',
-    '/manifest.js',
-    '/windows11/StoreLogo.scale-125.png',
-    '/windows11/StoreLogo.scale-150.png',
-    '/windows11/StoreLogo.scale-200.png',
-    '/windows11/Square44x44Logo.targetsize-256.png'
+    './index.html',
+    './sw.js',
+    './main.js',
+    './manifest.js',
+    './windows11/StoreLogo.scale-125.png',
+    './windows11/StoreLogo.scale-150.png',
+    './windows11/StoreLogo.scale-200.png',
+    './windows11/Square44x44Logo.targetsize-256.png'
 ];
 
 self.addEventListener('install', event => { 
